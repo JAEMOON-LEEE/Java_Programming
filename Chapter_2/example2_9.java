@@ -5,7 +5,7 @@ public class example2_9 {
 
         //비트 논리 연산
         System.out.println("[비트 연산 결과]");
-        System.out.printf("$04x\n", (short)(a&b)); // 비트 AND
+        System.out.printf("$04x\n", (short)(a&b)); // 비트 AND // 04x는 16진수롤 4자리로 표현 하라는 뜻이며, 앞은(없을시) 0ㅇ로 채움
         System.out.printf("%04x\n", (short)(a | b)); // 비트 OR
         System.out.printf("%04x\n", (short)(a ^ b)); // 비트 XOR
         System.out.printf("%04x\n", (short)(~a)); // 비트 NOT
