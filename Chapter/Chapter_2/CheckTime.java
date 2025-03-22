@@ -1,3 +1,5 @@
+package Chapter_2;
+
 public class CheckTime {
     public static void main(String[] args) {
         int x = 2, y= 10, z= 0;

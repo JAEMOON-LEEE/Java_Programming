@@ -1,4 +1,4 @@
-// 다음은 대입 연산자와 증감 연산자를 활용하는 사례이다. 실행결과는 무엇인가?
+package Chapter_2;// 다음은 대입 연산자와 증감 연산자를 활용하는 사례이다. 실행결과는 무엇인가?
 
 public class example2_6 {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Chapter_2;
+
 public class example2_9 {
     public static void main(String[] args) {
         short a = (short)0x55ff;
