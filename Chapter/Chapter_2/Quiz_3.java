@@ -11,7 +11,7 @@
  */
 package Chapter_2;
 import java.util.Scanner;
-public class Quiz3 {
+public class Quiz_3 {
     public static void main(String[] args) {
         System.out.println("**** 자바분식입니다. 주문하면 금액을 알려드립니다. ****");
         System.out.print("떡볶이 몇 인분>>");
