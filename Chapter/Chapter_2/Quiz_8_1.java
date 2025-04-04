@@ -16,7 +16,7 @@
 package Chapter_2;
 
 import java.util.Scanner;
-public class Quiz8_1 {
+public class Quiz_8_1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("연산 입력>>");

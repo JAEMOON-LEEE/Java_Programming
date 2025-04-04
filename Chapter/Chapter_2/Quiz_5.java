@@ -3,7 +3,6 @@
  * 다음 실행 사례와 같이 이름, 지극횟수, 결석횟수 순으로 입력할 때
  * 두 학생 중 누구의 출석 점수가 높은지 판단하는 프로그램을 작성하라.
  * 점수가 같은 경우 "점수 동일"이라고 출력 하라.
- *
  * <실행결과>
  *     학생1>>김유진 4 3
  *     학생2>>김경미 2 4
@@ -14,7 +13,7 @@
 package Chapter_2;
 import java.util.Scanner;
 
-public class Quiz5 {
+public class Quiz_5 {
     public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
         System.out.print("학생1>>");
