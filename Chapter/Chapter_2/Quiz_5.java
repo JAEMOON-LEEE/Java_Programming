@@ -39,13 +39,16 @@ public class Quiz_5 {
         int DelScore2 = total2 - sum2;
 
 
-        System.out.println(name1+"의 감점은"+sum+", "+name2+"의 감점은"+sum2);
+        System.out.println(name1+"의 감점은"+sum+", " +
+                ""+name2+"의 감점은"+sum2);
 
         if(DelScore >= DelScore2){
-            System.out.println(name1+"의 출석점수가 더 높음. "+name1+"출석점수는"+DelScore);
+            System.out.println(name1+"의 출석점수가 더 높음. " +
+                    ""+name1+"출석점수는"+DelScore);
         }
         else if (DelScore <= DelScore2) {
-            System.out.println(name2+"의 출석점수가 더 높음. "+name2+"출석점수는"+DelScore2);
+            System.out.println(name2+"의 출석점수가 더 높음. " +
+                    ""+name2+"출석점수는"+DelScore2);
         }
         else{
             System.out.println("점수 동일");

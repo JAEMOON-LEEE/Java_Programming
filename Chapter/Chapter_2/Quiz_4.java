@@ -1,5 +1,6 @@
 /**
- * 여행 경비를 계산하는 프로그램을 작성한다. 방하나에는 2명까지 투숙가능하며 1명만 투숙해도 1방의 비용을 지불한다.
+ * 여행 경비를 계산하는 프로그램을 작성한다. 방하나에는 2명까지 투숙가능하며 1명만
+ * 투숙해도 1방의 비용을 지불한다.
  *
  * <실행결과>
  *     여행지>> 태국 치앙마이
@@ -38,7 +39,9 @@ public class Quiz_4 {
 
         int room = ((people/2) + (people %2));
 
-        System.out.println(people+"명의"+where+"박"+(where+1)+"일 여행에는 방이"+room+"개 필요하며 경비는"+((people*fly)+(SleepMoney*room*sleep))+"입니다.");
+        System.out.println(people+"명의"+where+"박"+(where+1)+
+                "일 여행에는 방이"+room+"개 필요하며 경비는"+((people*fly)+
+                (SleepMoney*room*sleep))+"입니다.");
     }
 
 }

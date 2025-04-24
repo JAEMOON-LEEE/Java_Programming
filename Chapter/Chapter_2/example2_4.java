@@ -14,7 +14,8 @@ public class example2_4 {
         int age = scanner.nextInt();
         double weight = scanner.nextDouble();
         boolean marry = scanner.nextBoolean();
-        System.out.println("이름은"+name+", 도시는"+city+", 나이는"+age+"살, 체중은"+weight+", 독신여부는"+marry+"입니다.");
+        System.out.println("이름은"+name+", 도시는"+city+", 나이는"+age+"살" +
+                ", 체중은"+weight+", 독신여부는"+marry+"입니다.");
         scanner.close(); // scanner 객체 닫기
     }
 }

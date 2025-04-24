@@ -22,6 +22,7 @@ public class Quiz_6 {
         if(birthday==0){
             System.out.print("나이는 양수로만 입력하세요.");
         }
-        System.out.println("빨간초 "+red+"개, 파란초 "+blue+"개, 노란초 "+yellow+"개. 총"+(red+blue+yellow)+"개가 필요합니다.");
+        System.out.println("빨간초 "+red+"개, 파란초 "+blue+"개" +
+                ", 노란초 "+yellow+"개. 총"+(red+blue+yellow)+"개가 필요합니다.");
     }
 }
