@@ -19,13 +19,16 @@ public class assignment_1 {
 
         switch (operator) {
             case "+":
-                System.out.println(operand1 + operator + operand2 + "의 계산결과는" + ((int)((double)operand1 + (double) operand2)));
+                System.out.println(operand1 + operator + operand2 +
+                        "의 계산결과는" + ((int)((double)operand1 + (double) operand2)));
                 break;
             case "-":
-                System.out.println(operand1 + operator + operand2 + "의 계산결과는" + ((int)((double)operand1 - (double) operand2)));
+                System.out.println(operand1 + operator + operand2 +
+                        "의 계산결과는" + ((int)((double)operand1 - (double) operand2)));
                 break;
             case "*":
-                System.out.println(operand1 + operator + operand2 + "의 계산결과는" + ((int)((double)operand1 * (double) operand2)));
+                System.out.println(operand1 + operator + operand2 +
+                        "의 계산결과는" + ((int)((double)operand1 * (double) operand2)));
                 break;
             case "/":
                 switch (operand1) {
@@ -38,11 +41,13 @@ public class assignment_1 {
                                 System.out.println("0으로는 나눌 수 없습니다!");
                                 break;
                             default:
-                                System.out.println(operand1 + operator + operand2 + "의 계산결과는" + ((int)((double)operand1 / (double) operand2)));
+                                System.out.println(operand1 + operator + operand2 +
+                                        "의 계산결과는" + ((int)((double)operand1 / (double) operand2)));
                         }
                 }break;
             case "%":
-                System.out.println(operand1 + operator + operand2 + "의 계산결과는" + ((int)((double)operand1 % (double) operand2)));
+                System.out.println(operand1 + operator + operand2 +
+                        "의 계산결과는" + ((int)((double)operand1 % (double) operand2)));
                 break;
 
 
